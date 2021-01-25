@@ -1,9 +1,6 @@
 package source;
 
-import java.util.logging.Logger;
-
 public class Main {
-    static Logger logger = java.util.logging.Logger.getGlobal();
     public static void main(String[] args) {
         Window display = new Window(800, 600, "Star System");
         
