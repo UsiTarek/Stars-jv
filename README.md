@@ -1,5 +1,5 @@
 # Stars-jv
-A very simple star system that moves towards the view.
+Very simple stars rendered on the display that move towards the view.
 
 A rite of passage before entering the world of software rendering, as I'm currently studying my way through the basics of rendering 3D graphics to a display.
 
