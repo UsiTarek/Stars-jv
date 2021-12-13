@@ -7,7 +7,6 @@ public class Main {
         // Target bitmap to render to
         RenderTarget target = display.getFramebuffer();
 
-        // Initializing star system
         Stars3D stars = new Stars3D(
             2048,   // Star number 
             64.f,  // Spread
@@ -21,7 +20,6 @@ public class Main {
             long currentTime = System.currentTimeMillis();
             float deltaSeconds = (float)((currentTime - prevTime)/1000.0);
 
-            // Update and render stars
             stars.updateAndRender(target, deltaSeconds);
 
             // Display pixels on screen
